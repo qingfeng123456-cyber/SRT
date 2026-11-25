@@ -1,0 +1,162 @@
+[
+  {
+    "period": "2020H2",
+    "channel": 0,
+    "environment": 0,
+    "dates": 126,
+    "mean_teacher_gain": -0.06209504030170487,
+    "mean_student_gain": -0.0030611425179887263,
+    "mean_gain_vs_direct": 0.022130046963129747,
+    "teacher_positive_student_negative_dates": 8
+  },
+  {
+    "period": "2020H2",
+    "channel": 0,
+    "environment": 1,
+    "dates": 126,
+    "mean_teacher_gain": -0.04122455382469144,
+    "mean_student_gain": -0.0036462679807336197,
+    "mean_gain_vs_direct": 0.021544921500384853,
+    "teacher_positive_student_negative_dates": 3
+  },
+  {
+    "period": "2020H2",
+    "channel": 0,
+    "environment": 2,
+    "dates": 126,
+    "mean_teacher_gain": -0.12443893401120082,
+    "mean_student_gain": -0.01515753775743792,
+    "mean_gain_vs_direct": 0.010033651723680549,
+    "teacher_positive_student_negative_dates": 3
+  },
+  {
+    "period": "2020H2",
+    "channel": 0,
+    "environment": 3,
+    "dates": 126,
+    "mean_teacher_gain": -0.05736084135251467,
+    "mean_student_gain": -0.011384658865912377,
+    "mean_gain_vs_direct": 0.013806530615206095,
+    "teacher_positive_student_negative_dates": 14
+  },
+  {
+    "period": "2020H2",
+    "channel": 1,
+    "environment": 0,
+    "dates": 126,
+    "mean_teacher_gain": -0.030144474553217386,
+    "mean_student_gain": -0.00868128684362326,
+    "mean_gain_vs_direct": 0.006164798830407618,
+    "teacher_positive_student_negative_dates": 10
+  },
+  {
+    "period": "2020H2",
+    "channel": 1,
+    "environment": 1,
+    "dates": 126,
+    "mean_teacher_gain": -0.018120025955403615,
+    "mean_student_gain": -0.005042230277862579,
+    "mean_gain_vs_direct": 0.0098038553961683,
+    "teacher_positive_student_negative_dates": 12
+  },
+  {
+    "period": "2020H2",
+    "channel": 1,
+    "environment": 2,
+    "dates": 126,
+    "mean_teacher_gain": -0.010655456567865276,
+    "mean_student_gain": -0.003602363624866667,
+    "mean_gain_vs_direct": 0.01124372204916421,
+    "teacher_positive_student_negative_dates": 11
+  },
+  {
+    "period": "2020H2",
+    "channel": 1,
+    "environment": 3,
+    "dates": 126,
+    "mean_teacher_gain": -0.01826767153856047,
+    "mean_student_gain": -0.005869448800097469,
+    "mean_gain_vs_direct": 0.00897663687393341,
+    "teacher_positive_student_negative_dates": 6
+  },
+  {
+    "period": "2021",
+    "channel": 0,
+    "environment": 0,
+    "dates": 238,
+    "mean_teacher_gain": -0.01601450646069153,
+    "mean_student_gain": 0.002607247411514863,
+    "mean_gain_vs_direct": 0.015393082940763548,
+    "teacher_positive_student_negative_dates": 10
+  },
+  {
+    "period": "2021",
+    "channel": 0,
+    "environment": 1,
+    "dates": 238,
+    "mean_teacher_gain": -0.0521088096504385,
+    "mean_student_gain": -0.0197778761626041,
+    "mean_gain_vs_direct": -0.006992040633355419,
+    "teacher_positive_student_negative_dates": 6
+  },
+  {
+    "period": "2021",
+    "channel": 0,
+    "environment": 2,
+    "dates": 238,
+    "mean_teacher_gain": -0.13357754885636744,
+    "mean_student_gain": -0.04900475120840661,
+    "mean_gain_vs_direct": -0.03621891567915792,
+    "teacher_positive_student_negative_dates": 7
+  },
+  {
+    "period": "2021",
+    "channel": 0,
+    "environment": 3,
+    "dates": 238,
+    "mean_teacher_gain": -0.04055856432716867,
+    "mean_student_gain": 0.0010383627767244963,
+    "mean_gain_vs_direct": 0.013824198305973182,
+    "teacher_positive_student_negative_dates": 9
+  },
+  {
+    "period": "2021",
+    "channel": 1,
+    "environment": 0,
+    "dates": 238,
+    "mean_teacher_gain": -0.009567289300966958,
+    "mean_student_gain": -0.0026704273697559797,
+    "mean_gain_vs_direct": 0.005075423052100078,
+    "teacher_positive_student_negative_dates": 18
+  },
+  {
+    "period": "2021",
+    "channel": 1,
+    "environment": 1,
+    "dates": 238,
+    "mean_teacher_gain": -0.012078972023540323,
+    "mean_student_gain": -0.002079358066550001,
+    "mean_gain_vs_direct": 0.005666492355306057,
+    "teacher_positive_student_negative_dates": 18
+  },
+  {
+    "period": "2021",
+    "channel": 1,
+    "environment": 2,
+    "dates": 238,
+    "mean_teacher_gain": -0.0012464902490062302,
+    "mean_student_gain": 0.0029864762705286135,
+    "mean_gain_vs_direct": 0.01073232669238467,
+    "teacher_positive_student_negative_dates": 19
+  },
+  {
+    "period": "2021",
+    "channel": 1,
+    "environment": 3,
+    "dates": 238,
+    "mean_teacher_gain": -0.007234629623992536,
+    "mean_student_gain": -0.0034225511271499705,
+    "mean_gain_vs_direct": 0.004323299294706087,
+    "teacher_positive_student_negative_dates": 26
+  }
+]

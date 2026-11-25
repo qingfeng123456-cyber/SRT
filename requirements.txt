@@ -1,0 +1,5 @@
+# Provision in the AutoDL image. main.py never installs dependencies.
+numpy>=1.24
+scipy>=1.10
+torch>=2.6
+matplotlib>=3.7

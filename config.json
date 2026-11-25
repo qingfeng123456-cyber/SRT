@@ -1,0 +1,205 @@
+{
+  "protocol_revision": "srt_v1_20261019",
+  "random_state": 0,
+  "device": "cuda:0",
+  "raw_data": "data/qlib_cn",
+  "segments": {
+    "A": [
+      "2008-01-01",
+      "2013-12-31"
+    ],
+    "B": [
+      "2014-01-01",
+      "2015-12-31"
+    ],
+    "C": [
+      "2016-01-01",
+      "2018-12-31"
+    ],
+    "SELECT": [
+      "2019-01-01",
+      "2019-03-31"
+    ],
+    "REL": [
+      "2019-04-01",
+      "2019-12-31"
+    ],
+    "CHECK": [
+      "2020-01-01",
+      "2020-03-31"
+    ],
+    "WARM": [
+      "2020-04-01",
+      "2020-06-30"
+    ],
+    "2020H2": [
+      "2020-07-01",
+      "2020-12-31"
+    ],
+    "2021": [
+      "2021-01-01",
+      "2021-12-31"
+    ]
+  },
+  "environments": [
+    [
+      "2014-01-01",
+      "2014-06-30"
+    ],
+    [
+      "2014-07-01",
+      "2014-12-31"
+    ],
+    [
+      "2015-01-01",
+      "2015-06-30"
+    ],
+    [
+      "2015-07-01",
+      "2015-12-31"
+    ]
+  ],
+  "data": {
+    "history_days": 64,
+    "minimum_history": 48,
+    "minimum_stocks": 32,
+    "maximum_stocks": 300,
+    "liquidity_window": 20,
+    "minimum_liquidity_observations": 16,
+    "fields": [
+      "open",
+      "high",
+      "low",
+      "close",
+      "volume",
+      "amount",
+      "vwap"
+    ],
+    "feature_clip": 10,
+    "minimum_train_dates": 100,
+    "minimum_validation_dates": 20
+  },
+  "target": {
+    "expression": "100*log(close[t+5]/close[t+1])",
+    "horizon": 5,
+    "daily_offsets": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "model": {
+    "hidden_dim": 48,
+    "temporal_dilations": [
+      1,
+      2,
+      4
+    ],
+    "kernel_size": 5
+  },
+  "training": {
+    "epochs": 18,
+    "patience": 5,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "clip_norm": 1,
+    "dates_per_update": 4,
+    "internal_fit_fraction": 0.8,
+    "future_k": [
+      1,
+      3
+    ],
+    "future_weights": [
+      0.5,
+      0.5
+    ],
+    "distillation_weight": 0.5,
+    "progress_every_updates": 50
+  },
+  "ridge": {
+    "penalty": 0.01,
+    "scale_floor": 0.001,
+    "response_scale_floor": 0.001
+  },
+  "controller": {
+    "states": 3,
+    "radius": 3,
+    "rho": 0.05,
+    "kappa": 0.1,
+    "tau": 0.02,
+    "forgetting": 0.985,
+    "rolling_dates": 60,
+    "gate_radius": 1,
+    "hedge_rate": 0.1,
+    "fixed_share": 0.02,
+    "solver_steps": 2000,
+    "solver_tolerance": 1e-07,
+    "kkt_tolerance": 1e-05,
+    "minimum_feedback_stocks": 10,
+    "delay": 5
+  },
+  "state_model": {
+    "max_iterations": 100,
+    "tolerance": 0.0001,
+    "covariance_floor": 0.0001,
+    "parameter_ridge": 0.001,
+    "transition_pseudocount": 0.5,
+    "initial_stay_probability": 0.95,
+    "minimum_dates": 130,
+    "minimum_occupancy": 10,
+    "minimum_state_separation": 0.005,
+    "maximum_design_condition": 10000000000,
+    "maximum_covariance_condition": 10000000000
+  },
+  "evaluation": {
+    "minimum_rank_stocks": 10,
+    "top_fraction": 0.1,
+    "buy_cost_bps": 10,
+    "sell_cost_bps": 10,
+    "holding_days": 4,
+    "missing_price_policy": "carry prior mark and retain position; defer untradable exits; record exposure"
+  },
+  "inference": {
+    "block_length": 10,
+    "replicates": 2000,
+    "confidence": 0.95
+  },
+  "synthetic": {
+    "enabled": true,
+    "stocks": 32,
+    "environment_dates": 64,
+    "head_dates": 128,
+    "reliability_dates": 240,
+    "warm_dates": 40,
+    "evaluation_dates": 180,
+    "delays": [
+      5,
+      10,
+      20
+    ],
+    "cases": [
+      "stable",
+      "teacher_projection",
+      "recurrent_sign",
+      "unforeseen_flip",
+      "covariate_only",
+      "common_market",
+      "rank_mean_mismatch",
+      "null"
+    ],
+    "null_variants": [
+      "iid",
+      "overlap",
+      "collinear"
+    ]
+  },
+  "confirmation": {
+    "enabled": false,
+    "maximum_context_date": "2021-12-31"
+  },
+  "automatic_dependency_installation": false,
+  "automatic_retry": false,
+  "automatic_sweep": false,
+  "local_runtime_validation": "not_run"
+}

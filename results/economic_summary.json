@@ -1,0 +1,382 @@
+{
+  "D-ALL": {
+    "net_total_return": 0.22040579257531823,
+    "annualized_return": 0.14571363133850657,
+    "sharpe_zero_cash_rate": 0.6836921402352925,
+    "maximum_drawdown": -0.20188951867264027,
+    "mean_daily_turnover": 0.49191117930900774,
+    "stale_mark_dates": 53,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.2204057925753182,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed"
+        },
+        {
+          "status": "completed"
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "D": {
+    "net_total_return": 0.1972980422662718,
+    "annualized_return": 0.13085371716918326,
+    "sharpe_zero_cash_rate": 0.6838841631206858,
+    "maximum_drawdown": -0.14700701775443303,
+    "mean_daily_turnover": 0.4914326730845648,
+    "stale_mark_dates": 63,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.1972980422662718,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed"
+        },
+        {
+          "status": "completed"
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "K": {
+    "net_total_return": 0.26889721098889074,
+    "annualized_return": 0.17661042676035632,
+    "sharpe_zero_cash_rate": 0.8396635631083544,
+    "maximum_drawdown": -0.16466704662215514,
+    "mean_daily_turnover": 0.4916265639658922,
+    "stale_mark_dates": 58,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.2688972109888907,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed"
+        },
+        {
+          "status": "completed"
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "OCT-FIX": {
+    "net_total_return": 0.15802869920275064,
+    "annualized_return": 0.10539026352717129,
+    "sharpe_zero_cash_rate": 0.5728276045061498,
+    "maximum_drawdown": -0.16134677403046183,
+    "mean_daily_turnover": 0.49149500201203733,
+    "stale_mark_dates": 59,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.1580286992027506,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed"
+        },
+        {
+          "status": "completed"
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "R0C0": {
+    "net_total_return": 0.13119182929804052,
+    "annualized_return": 0.08783079256173298,
+    "sharpe_zero_cash_rate": 0.4693530804583938,
+    "maximum_drawdown": -0.22655218582385894,
+    "mean_daily_turnover": 0.4916175186622348,
+    "stale_mark_dates": 42,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.1311918292980405,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed"
+        },
+        {
+          "status": "completed"
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "R1C0": {
+    "net_total_return": 0.09575919825709023,
+    "annualized_return": 0.06444327960427998,
+    "sharpe_zero_cash_rate": 0.3804921441614506,
+    "maximum_drawdown": -0.2219352413596214,
+    "mean_daily_turnover": 0.4921046964234053,
+    "stale_mark_dates": 35,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.0957591982570902,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed"
+        },
+        {
+          "status": "completed"
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "R0C1": {
+    "net_total_return": 0.026926834338832695,
+    "annualized_return": 0.018311470542482722,
+    "sharpe_zero_cash_rate": 0.1996191552117369,
+    "maximum_drawdown": -0.24623211024060265,
+    "mean_daily_turnover": 0.49134674764064906,
+    "stale_mark_dates": 75,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.0269268343388327,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed",
+          "reasons": []
+        },
+        {
+          "status": "completed",
+          "reasons": []
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "SRT": {
+    "net_total_return": 0.0015146489692945408,
+    "annualized_return": 0.0010341461967653398,
+    "sharpe_zero_cash_rate": 0.13294377289541645,
+    "maximum_drawdown": -0.25763004613175233,
+    "mean_daily_turnover": 0.49200055942977855,
+    "stale_mark_dates": 60,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.0015146489692945,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed",
+          "reasons": []
+        },
+        {
+          "status": "completed",
+          "reasons": []
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "RES-RLS": {
+    "net_total_return": -0.09322550776478211,
+    "annualized_return": -0.06464789452785569,
+    "sharpe_zero_cash_rate": -0.19667886478595012,
+    "maximum_drawdown": -0.2890688912887961,
+    "mean_daily_turnover": 0.4921822348940405,
+    "stale_mark_dates": 29,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 0.9067744922352179,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed"
+        },
+        {
+          "status": "completed"
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "HEDGE": {
+    "net_total_return": 0.17568359304135384,
+    "annualized_return": 0.11687157824053251,
+    "sharpe_zero_cash_rate": 0.6183275091023286,
+    "maximum_drawdown": -0.1613184299890802,
+    "mean_daily_turnover": 0.49145826363999623,
+    "stale_mark_dates": 64,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.1756835930413538,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed"
+        },
+        {
+          "status": "completed"
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "GATE": {
+    "net_total_return": 0.15802869920275064,
+    "annualized_return": 0.10539026352717129,
+    "sharpe_zero_cash_rate": 0.5728276045061498,
+    "maximum_drawdown": -0.16134677403046183,
+    "mean_daily_turnover": 0.49149500201203733,
+    "stale_mark_dates": 59,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.1580286992027506,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed"
+        },
+        {
+          "status": "completed"
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "RES-STATE": {
+    "net_total_return": 0.09237719597815941,
+    "annualized_return": 0.06219852840140505,
+    "sharpe_zero_cash_rate": 0.3745911833959689,
+    "maximum_drawdown": -0.2071187843695479,
+    "mean_daily_turnover": 0.49165188867099796,
+    "stale_mark_dates": 55,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.0923771959781594,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed",
+          "reasons": []
+        },
+        {
+          "status": "completed",
+          "reasons": []
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "SRT-NOPROP": {
+    "net_total_return": 0.0355888456415101,
+    "annualized_return": 0.024169547238495293,
+    "sharpe_zero_cash_rate": 0.22128726136424434,
+    "maximum_drawdown": -0.2113100486321463,
+    "mean_daily_turnover": 0.49200163685254744,
+    "stale_mark_dates": 52,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.03558884564151,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed",
+          "reasons": []
+        },
+        {
+          "status": "completed",
+          "reasons": []
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "SRT-NOSIGNED": {
+    "net_total_return": 0.0007084853103140887,
+    "annualized_return": 0.00048378929772940893,
+    "sharpe_zero_cash_rate": 0.13124460331560697,
+    "maximum_drawdown": -0.261793384826461,
+    "mean_daily_turnover": 0.49211743255623364,
+    "stale_mark_dates": 60,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.000708485310314,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed",
+          "reasons": []
+        },
+        {
+          "status": "completed",
+          "reasons": []
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "SRT-OLDGEOM": {
+    "net_total_return": 0.01063317512066253,
+    "annualized_return": 0.007249496007845968,
+    "sharpe_zero_cash_rate": 0.15734724179084278,
+    "maximum_drawdown": -0.2500443476892782,
+    "mean_daily_turnover": 0.49203174973896086,
+    "stale_mark_dates": 55,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.0106331751206625,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed",
+          "reasons": []
+        },
+        {
+          "status": "completed",
+          "reasons": []
+        }
+      ]
+    },
+    "continuous_reporting": true
+  },
+  "R1-ROLL": {
+    "net_total_return": 0.12052738809604224,
+    "annualized_return": 0.08081642231485509,
+    "sharpe_zero_cash_rate": 0.43066824048331737,
+    "maximum_drawdown": -0.251585793154563,
+    "mean_daily_turnover": 0.4924341043560575,
+    "stale_mark_dates": 35,
+    "ending_unresolved_position_value": 0,
+    "ending_nav": 1.1205273880960422,
+    "scope": "close-price, positive-volume execution proxy; no limit-lock/auction-fill simulation; provider price convention",
+    "missing_rule": "carry prior mark and retain position; defer untradable exits; record exposure",
+    "method_status": {
+      "channels": [
+        {
+          "status": "completed"
+        },
+        {
+          "status": "completed"
+        }
+      ]
+    },
+    "continuous_reporting": true
+  }
+}

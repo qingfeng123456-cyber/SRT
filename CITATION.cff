@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying SRT manuscript when using this research code."
+type: software
+title: "SRT: Student-Response Transport"
+authors:
+  - family-names: Xia
+    given-names: Weijun
+    orcid: "https://orcid.org/0009-0002-8165-0955"
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "From Revised Supervision to Deployable Forecasts: Student Responses and Delayed Transfer in Equity Prediction"
+  authors:
+    - family-names: Xia
+      given-names: Weijun
+      orcid: "https://orcid.org/0009-0002-8165-0955"
+  year: 2026

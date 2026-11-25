@@ -1,0 +1,525 @@
+{
+  "protocol_revision": "srt_v1_20261019",
+  "financial_neural_fits": [
+    {
+      "id": "T0",
+      "train": "A/internal_fit",
+      "select": "A/internal_select",
+      "depends_on": []
+    },
+    {
+      "id": "TF",
+      "train": "A/internal_fit",
+      "select": "A/internal_select",
+      "depends_on": []
+    },
+    {
+      "id": "D-ALL",
+      "train": "A+B+C",
+      "select": "SELECT",
+      "depends_on": []
+    }
+  ],
+  "financial_statistical_components": [
+    "four future-teacher residual dual ridge correctors",
+    "four origin-teacher residual dual ridge correctors",
+    "six matched student dual ridge heads",
+    "four ordinary-residual projected dual ridge heads",
+    "three-state gain models for R0/R1/ordinary residual bases and both channels",
+    "fixed control/cache replays"
+  ],
+  "methods": [
+    "D-ALL",
+    "D",
+    "K",
+    "OCT-FIX",
+    "R0C0",
+    "R1C0",
+    "R0C1",
+    "SRT",
+    "RES-RLS",
+    "HEDGE",
+    "GATE",
+    "RES-STATE",
+    "SRT-NOPROP",
+    "SRT-NOSIGNED",
+    "SRT-OLDGEOM",
+    "R1-ROLL"
+  ],
+  "primary_controls": [
+    "D-ALL",
+    "D",
+    "K",
+    "OCT-FIX",
+    "R1C0",
+    "RES-RLS",
+    "HEDGE",
+    "GATE",
+    "RES-STATE"
+  ],
+  "factor_cells": [
+    "R0C0",
+    "R1C0",
+    "R0C1",
+    "SRT"
+  ],
+  "rank_family": [
+    {
+      "id": "main_2020H2_D-ALL",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "D-ALL",
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2020H2_D",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "D",
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2020H2_K",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "K",
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2020H2_OCT-FIX",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "OCT-FIX",
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2020H2_R1C0",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "R1C0",
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2020H2_RES-RLS",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "RES-RLS",
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2020H2_HEDGE",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "HEDGE",
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2020H2_GATE",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "GATE",
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2020H2_RES-STATE",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "RES-STATE",
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "response_rls_2020H2",
+      "kind": "contrast",
+      "terms": [
+        [
+          "R1C0",
+          1
+        ],
+        [
+          "R0C0",
+          -1
+        ]
+      ],
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "response_state_2020H2",
+      "kind": "contrast",
+      "terms": [
+        [
+          "SRT",
+          1
+        ],
+        [
+          "R0C1",
+          -1
+        ]
+      ],
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "interaction_2020H2",
+      "kind": "contrast",
+      "terms": [
+        [
+          "SRT",
+          1
+        ],
+        [
+          "R0C1",
+          -1
+        ],
+        [
+          "R1C0",
+          -1
+        ],
+        [
+          "R0C0",
+          1
+        ]
+      ],
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "mechanism_2020H2_SRT-NOPROP",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "SRT-NOPROP",
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "mechanism_2020H2_SRT-NOSIGNED",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "SRT-NOSIGNED",
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "mechanism_2020H2_SRT-OLDGEOM",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "SRT-OLDGEOM",
+      "period": "2020H2",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2021_D-ALL",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "D-ALL",
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2021_D",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "D",
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2021_K",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "K",
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2021_OCT-FIX",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "OCT-FIX",
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2021_R1C0",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "R1C0",
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2021_RES-RLS",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "RES-RLS",
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2021_HEDGE",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "HEDGE",
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2021_GATE",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "GATE",
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "main_2021_RES-STATE",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "RES-STATE",
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "response_rls_2021",
+      "kind": "contrast",
+      "terms": [
+        [
+          "R1C0",
+          1
+        ],
+        [
+          "R0C0",
+          -1
+        ]
+      ],
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "response_state_2021",
+      "kind": "contrast",
+      "terms": [
+        [
+          "SRT",
+          1
+        ],
+        [
+          "R0C1",
+          -1
+        ]
+      ],
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "interaction_2021",
+      "kind": "contrast",
+      "terms": [
+        [
+          "SRT",
+          1
+        ],
+        [
+          "R0C1",
+          -1
+        ],
+        [
+          "R1C0",
+          -1
+        ],
+        [
+          "R0C0",
+          1
+        ]
+      ],
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "mechanism_2021_SRT-NOPROP",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "SRT-NOPROP",
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "mechanism_2021_SRT-NOSIGNED",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "SRT-NOSIGNED",
+      "period": "2021",
+      "endpoint": "rank_ic"
+    },
+    {
+      "id": "mechanism_2021_SRT-OLDGEOM",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "SRT-OLDGEOM",
+      "period": "2021",
+      "endpoint": "rank_ic"
+    }
+  ],
+  "mse_family": [
+    {
+      "id": "mse_2020H2_D-ALL",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "D-ALL",
+      "period": "2020H2",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2020H2_D",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "D",
+      "period": "2020H2",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2020H2_K",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "K",
+      "period": "2020H2",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2020H2_OCT-FIX",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "OCT-FIX",
+      "period": "2020H2",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2020H2_R1C0",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "R1C0",
+      "period": "2020H2",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2020H2_RES-RLS",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "RES-RLS",
+      "period": "2020H2",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2020H2_HEDGE",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "HEDGE",
+      "period": "2020H2",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2020H2_GATE",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "GATE",
+      "period": "2020H2",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2020H2_RES-STATE",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "RES-STATE",
+      "period": "2020H2",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2021_D-ALL",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "D-ALL",
+      "period": "2021",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2021_D",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "D",
+      "period": "2021",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2021_K",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "K",
+      "period": "2021",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2021_OCT-FIX",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "OCT-FIX",
+      "period": "2021",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2021_R1C0",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "R1C0",
+      "period": "2021",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2021_RES-RLS",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "RES-RLS",
+      "period": "2021",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2021_HEDGE",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "HEDGE",
+      "period": "2021",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2021_GATE",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "GATE",
+      "period": "2021",
+      "endpoint": "mu_mse"
+    },
+    {
+      "id": "mse_2021_RES-STATE",
+      "kind": "difference",
+      "candidate": "SRT",
+      "control": "RES-STATE",
+      "period": "2021",
+      "endpoint": "mu_mse"
+    }
+  ],
+  "scope": "already-seen exploratory development; no automatic candidate selection",
+  "synthetic": {
+    "mechanism_classes": 8,
+    "cache_panels": 10,
+    "neural_fits": 0,
+    "student_space": "controlled fixed representation; statistical fits and exact toy check, not neural-learning evidence"
+  }
+}

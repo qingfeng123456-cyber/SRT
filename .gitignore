@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+Thumbs.db
+log/
+cache/
+*.zip
+*.pt
+*.pth
+data/qlib_cn/
+data/source_manifest.json
+
+!docs/supplement/supplement_latex.zip

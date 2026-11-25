@@ -1,0 +1,14 @@
+{
+  "classes": 8,
+  "panels": 10,
+  "delays": [
+    5,
+    10,
+    20
+  ],
+  "neural_fits": 0,
+  "elapsed_seconds": 467.13296947814524,
+  "scope": "controlled fixed function spaces and known synthetic conditional means; not neural-training evidence",
+  "hidden_state_used_by_controller": false,
+  "adverse_accuracy_blocks_financial_run": false
+}

@@ -1,0 +1,52 @@
+{
+  "stable_default": {
+    "status": "completed",
+    "controller_unidentified_outputs_preserved": true,
+    "dictionary_seconds": 0.39987565018236637
+  },
+  "teacher_projection_default": {
+    "status": "completed",
+    "controller_unidentified_outputs_preserved": true,
+    "dictionary_seconds": 0.3266922631300986
+  },
+  "recurrent_sign_default": {
+    "status": "completed",
+    "controller_unidentified_outputs_preserved": true,
+    "dictionary_seconds": 0.33987103402614594
+  },
+  "unforeseen_flip_default": {
+    "status": "completed",
+    "controller_unidentified_outputs_preserved": true,
+    "dictionary_seconds": 0.340759364888072
+  },
+  "covariate_only_default": {
+    "status": "completed",
+    "controller_unidentified_outputs_preserved": true,
+    "dictionary_seconds": 0.3480890723876655
+  },
+  "common_market_default": {
+    "status": "completed",
+    "controller_unidentified_outputs_preserved": true,
+    "dictionary_seconds": 0.3338220021687448
+  },
+  "rank_mean_mismatch_default": {
+    "status": "completed",
+    "controller_unidentified_outputs_preserved": true,
+    "dictionary_seconds": 0.33079915679991245
+  },
+  "null_iid": {
+    "status": "completed",
+    "controller_unidentified_outputs_preserved": true,
+    "dictionary_seconds": 0.3517117537558079
+  },
+  "null_overlap": {
+    "status": "completed",
+    "controller_unidentified_outputs_preserved": true,
+    "dictionary_seconds": 0.35639175586402416
+  },
+  "null_collinear": {
+    "status": "completed",
+    "controller_unidentified_outputs_preserved": true,
+    "dictionary_seconds": 0.30139378970488906
+  }
+}

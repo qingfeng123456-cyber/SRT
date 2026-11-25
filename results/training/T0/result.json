@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "fit": "T0",
+  "checkpoint": "/root/autodl-tmp/SRT_AutoDL/log/RUN-20261020-140616-102758-SRT/fits/T0/best.pt",
+  "train_dates": 1160,
+  "selection_dates": 287,
+  "latest_training_target": "2012-10-16",
+  "last_selection_target": "2013-12-31",
+  "optimizer_updates": 3480,
+  "parameters": 57410,
+  "elapsed_seconds": 167.46484703104943,
+  "peak_cuda_bytes": 201416704,
+  "runtime_location": "AutoDL"
+}

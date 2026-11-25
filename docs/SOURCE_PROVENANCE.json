@@ -1,0 +1,68 @@
+{
+  "returned_run": "RUN-20261020-140616-102758-SRT",
+  "returned_archive_sha256": "c097a867cadc44cc52cb9332761366cf7d8a7d36539505eab40d86411254f177",
+  "src_files": [
+    {
+      "file": "src/__init__.py",
+      "sha256": "a345d6bfc894d0b889377c2f46c44cba7400a99dfd313b663b54d64835649c17"
+    },
+    {
+      "file": "src/analysis.py",
+      "sha256": "8bcc24f7123c3030abcb400f8faf34bba97053cb89b4774f16fc7267cb2e6b9a"
+    },
+    {
+      "file": "src/bank.py",
+      "sha256": "15a437f8948e000ffb2c670d3255d32c0827554695abc3635d1db45600a1cf43"
+    },
+    {
+      "file": "src/controllers.py",
+      "sha256": "2247472ae0fcff65b791fd5727342e4ffe9a10c9d1ec0065e0e7b7ff9a7867d4"
+    },
+    {
+      "file": "src/data.py",
+      "sha256": "7d60026eb17c58b18dc0a2452046c32865186142b2999f319dbdfcdd903ebc5f"
+    },
+    {
+      "file": "src/io_utils.py",
+      "sha256": "0c6f660d73c66ec1cbee4dc04cbf46765d3ea71718e3d5426198cb1506945c23"
+    },
+    {
+      "file": "src/linear.py",
+      "sha256": "aabf2726a233515f4356de14cd276e774029069e541e53a3483dc574a6e42c5f"
+    },
+    {
+      "file": "src/metrics.py",
+      "sha256": "2d2fe0c572016a9544c0fffa7c5d9584a793978b47cd4485c91e135921ad928a"
+    },
+    {
+      "file": "src/models.py",
+      "sha256": "28ee0f82c4e8268057e8952a591502f481eec8c7fb7ba4b77374ed5bea9e12b7"
+    },
+    {
+      "file": "src/neural.py",
+      "sha256": "b0bb0deb1bb95951b0db4590e6b79c7ca8d6c1d36fe88bfbccdc565f43ad7267"
+    },
+    {
+      "file": "src/portfolio.py",
+      "sha256": "00b0fbfbce0120d2490b1c3ddb614c96aebb1b299783742a990bad4dffbc9599"
+    },
+    {
+      "file": "src/replay.py",
+      "sha256": "c1405d4324dfdbc3e1336653b866cca122efc6257c98dbe5705ddb06fa5bb0be"
+    },
+    {
+      "file": "src/runtime_checks.py",
+      "sha256": "79d687eba61de96b8c50f20dfd908de685c6ad00f46327f6e9b654449b86069b"
+    },
+    {
+      "file": "src/state.py",
+      "sha256": "e95daea1b33e3cf032ee91af379dba8fc9199af4364f781414a48e73ff6d5e70"
+    },
+    {
+      "file": "src/synthetic.py",
+      "sha256": "c1fee0cb8b46593f4c5c34d8d98078855eae6fa17ecb3da955640174896a8cea"
+    }
+  ],
+  "release_change": "main.py snapshot copies public release files instead of internal research notes; all other main.py AST nodes and every src byte are unchanged",
+  "local_validation": "syntax, AST, JSON and checksum inspection only"
+}

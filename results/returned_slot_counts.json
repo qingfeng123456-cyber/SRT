@@ -1,0 +1,22 @@
+{
+  "financial_inference": {
+    "rank_family": {
+      "slots": 30,
+      "estimated": 30,
+      "holm_positive": 0,
+      "holm_negative": 0
+    },
+    "mse_family": {
+      "slots": 18,
+      "estimated": 18,
+      "holm_positive": 0,
+      "holm_negative": 0
+    }
+  },
+  "synthetic_method_channel_status_counts": {
+    "completed": 927,
+    "completed_unidentified": 33
+  },
+  "numbers_are_counts_of_exported_slots": "not new statistical tests",
+  "local_empirical_recomputation": false
+}

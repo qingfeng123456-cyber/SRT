@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "fit": "D-ALL",
+  "checkpoint": "/root/autodl-tmp/SRT_AutoDL/log/RUN-20261020-140616-102758-SRT/fits/D-ALL/best.pt",
+  "train_dates": 2662,
+  "selection_dates": 53,
+  "latest_training_target": "2018-12-28",
+  "last_selection_target": "2019-03-29",
+  "optimizer_updates": 9324,
+  "parameters": 57410,
+  "elapsed_seconds": 417.8831605981104,
+  "peak_cuda_bytes": 202760704,
+  "runtime_location": "AutoDL"
+}
