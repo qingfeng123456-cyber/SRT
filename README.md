@@ -13,7 +13,6 @@ SRT follows the output response retained after changing a student's supervision.
 - `tools/verify_data.py`: checksum-only verification of prepared data.
 - `results/`: original aggregate exports and three saved training histories.
 - `docs/`: protocol, data format and source provenance.
-- `docs/supplement/`: supplementary PDF and flat LaTeX source archive for the manuscript.
 
 ## Environment and run
 
@@ -36,4 +35,4 @@ The returned run is `RUN-20261020-140616-102758-SRT`. Recurring alignment gives 
 
 ## License and citation
 
-The research code is provided under the MIT license. Market data are obtained separately from the identified provider and follow that provider's terms. The journal's unmodified `crorr.cls` in the supplementary source archive retains its own terms and is not relicensed under MIT. `CITATION.cff` supplies the author and manuscript citation.
+The research code is provided under the MIT license. Market data are obtained separately from the identified provider and follow that provider's terms. The manuscript's supplementary material is supplied through the journal submission. `CITATION.cff` supplies the author and manuscript citation.
